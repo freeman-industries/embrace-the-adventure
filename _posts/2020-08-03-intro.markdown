@@ -1,7 +1,6 @@
 ---
 title:        "Welcome to Embrace The Adventure"
-subtitle:     "Optional subtitle here"
-date:         2020-08-03 16:29:02 +0800
+date:         2021-01-21 09:00:00 +0000
 keywords:
 - tag1
 - tag2

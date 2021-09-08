@@ -13,7 +13,9 @@
   <body>
     {% if site.logo %}
       <h1>
-        <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+        <a href="/">
+          <img class="logo" src="{{site.logo | relative_url}}" alt="Logo" />
+        </a>
       </h1>
     {% endif %}
     <p class="about">

@@ -2,7 +2,7 @@
 title:        "A note from Nabs"
 date:         2021-09-08 09:00:00 +0100
 mp3-url:      "/assets/audio/note-from-nabs.mp3"
-episode-type: trailer # or "trailer"
+episode-type: full # or "trailer"
 explicit:     "no"
 block:        "no" # no means it is published
 layout: podcast

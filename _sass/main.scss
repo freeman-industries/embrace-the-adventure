@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+$margin: 40px;
+$content-width: 640px;
+$border-radius: 3px;
+$brand-color: #4000FF;
+$primary-text-color: #000;
+$secondary-text-color: #888;
+$off-white-color: #F8F8F8;
+$base-font-size: 18px;
+$small-font-size: 13px;
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	font-family:BlinkMacSystemFont, -apple-system, 'Roboto', 'Segoe UI', 'Inconsolata', 'Menlo', 'Ubuntu', 'Courier New', 'Courier', monospace;
+
+	text-align:center;
+
+	margin:0px;
+	padding:0px;
+
+    line-height: 150%;
+	font-size: $base-font-size;
+    background: $off-white-color;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > * {
+        width: 100%;
+        max-width: $content-width;
+    }
+
+    img.logo {
+        width: 100%;
+        max-width: $content-width / 2;
+        border-radius: $border-radius;
+    }
+
+    h1, p.about {
+        margin: 0px;
+        margin-top: $margin;
+    }
+
+    section {
+        background: white;
+        text-align: center;
+        padding: $margin / 2;
+        margin-top: $margin;
+        border-radius: $border-radius;
+    }
+
+	small{
+		color:$secondary-text-color;
+	}
+
+	a{
+		color:$brand-color;
+		font-weight:bold;
+
+		&:visited{
+			opacity:0.6;
+		}
+	}
+
+	header{
+		img.logo{
+			width: 100%;
+		}
+	}
+
+    .episodes {
+        .episode {
+            &:not(:first-child) {
+                margin-top: $margin / 2;
+            }
+        }
+    }
+
+	footer{
+        width: 100%;
+        text-align: center;
+		margin:$margin 0px;
+		color:$secondary-text-color;
+        font-family: sans-serif;
+        font-size: $small-font-size;
+
+		a{
+			font-size: $small-font-size;
+			color:$secondary-text-color;
+			font-weight:normal;
+		}
+	}
+}

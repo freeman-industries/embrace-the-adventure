@@ -11,7 +11,4 @@ block:        "no" # no means it is published
 layout: podcast
 excerpt_separator: <!--more-->
 ---
-Excerpt here.
-<!--more-->
-
-More details of your episode here.
+Here be dragons... If you listen to the episodes before this note, you should wear some headphones because the audio is less pro than it could be. After all, I started Embrace The Adventure as an MVP podcast.

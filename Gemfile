@@ -18,9 +18,10 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-# group :jekyll_plugins do
-  # gem "jekyll-feed"
-# end
+group :jekyll_plugins do
+  # sitemap for El Goog
+  gem 'jekyll-sitemap'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -32,3 +33,4 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
+gem "webrick", "~> 1.7"
